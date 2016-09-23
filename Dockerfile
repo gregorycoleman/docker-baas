@@ -17,7 +17,7 @@ ENV PATH="/opt/auth0/baas/bin:${PATH}"
 EXPOSE 9485:9485
 
 # Start a baas server on port 9485 and salt with 10 iterations
-CMD ["baas -p 9485 -s 10"]
+CMD ["baas","-p 9485","-s 10"]
 
 
 
